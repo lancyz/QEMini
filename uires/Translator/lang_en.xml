@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A88-C304FDD69D96}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">
+    <message>
+      <source>ok</source>
+      <translation>ok</translation>
+    </message>
+    <message>
+      <source>cancel</source>
+      <translation>cancel</translation>
+    </message>
+    <message>
+      <source>retry</source>
+      <translation>retry</translation>
+    </message>
+  </context>
+
+  <context name="dlg_setup">
+    <message>
+      <source>Chinese</source>
+      <translation>Chinese</translation>
+    </message>
+    <message>
+      <source>English</source>
+      <translation>English</translation>
+    </message>
+  </context>
+
+  <context name="MenuCtx">
+    <message>
+      <source>Clear</source>
+      <translation>Clear</translation>
+    </message>
+    <message>
+      <source>Copy</source>
+      <translation>Copy</translation>
+    </message>
+    <message>
+      <source>Cut</source>
+      <translation>Cut</translation>
+    </message>
+    <message>
+      <source>Revoke</source>
+      <translation>Revoke</translation>
+    </message>
+    <message>
+      <source>Select all</source>
+      <translation>Select all</translation>
+    </message>
+    <message>
+      <source>Save as</source>
+      <translation>Save as</translation>
+    </message>
+    <message>
+      <source>Save as</source>
+      <translation>Save as</translation>
+    </message>
+    <message>
+      <source>Open</source>
+      <translation>Open</translation>
+    </message>
+    <message>
+      <source>Open folder</source>
+      <translation>Open folder</translation>
+    </message>
+    <message>
+      <source>Send message</source>
+      <translation>Send message</translation>
+    </message>
+    <message>
+      <source>Network call</source>
+      <translation>Network call</translation>
+    </message>
+    <message>
+      <source>View more</source>
+      <translation>View more</translation>
+    </message>
+    <message>
+      <source>Copy(&C)</source>
+      <translation>Copy(&C)</translation>
+    </message>
+    <message>
+      <source>Cut(&X)</source>
+      <translation>Cut(&X)</translation>
+    </message>
+    <message>
+      <source>Paste(&V)</source>
+      <translation>Paste(&V)</translation>
+    </message>
+    <message>
+      <source>Select all(&A)</source>
+      <translation>Select all(&A)</translation>
+    </message>
+  </context>
+
+  <context name="dlg_main">
+    <message>
+      <source>close</source>
+      <translation>close</translation>
+    </message>
+    <message>
+      <source>Send</source>
+      <translation>Send</translation>
+    </message>
+  </context>
+
+  <context name="dlg_login">
+    <message>
+      <source>close</source>
+      <translation>close</translation>
+    </message>
+    <message>
+      <source>Password</source>
+      <translation>Password</translation>
+    </message>
+    <message>
+      <source>Employee number</source>
+      <translation>Employee number</translation>
+    </message>
+    <message>
+      <source>Keep Password</source>
+      <translation>Keep Password</translation>
+    </message>
+    <message>
+      <source>Auto Login</source>
+      <translation>Auto Login</translation>
+    </message>
+  </context>
+
+  <context name="dlg_userInfo">
+    <message>
+      <source>close</source>
+      <translation>close</translation>
+    </message>
+    <message>
+      <source>Emp No</source>
+      <translation>Emp No</translation>
+    </message>
+    <message>
+      <source>Dept</source>
+      <translation>Dept</translation>
+    </message>
+    <message>
+      <source>Phone</source>
+      <translation>Phone</translation>
+    </message>
+    <message>
+      <source>Contact him\her</source>
+      <translation>Contact him\her</translation>
+    </message>
+  </context>
+
+</language>

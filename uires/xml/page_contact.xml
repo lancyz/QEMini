@@ -1,0 +1,66 @@
+<include>
+  <!--联系人列表-->
+  <window pos="0,0,@250,-0" colorBkgnd="rgb(229,229,229)">
+    <listview pos="0,0,-0,-0" name="lv_contact" dividerSize="5" wantTab="1" sbSkin="skin.common.vscroll">
+
+      <template defHeight="50" separHeight="30" trackMouseEvent="1">
+
+        <itemUser colorHover="rgb(220,220,220)" colorSelected="rgb(206,205,203)">
+          <img pos="8,7,@40,@40"  name="img_head_user"  skin="skin.icon2" />
+          <text name="text_user_name" align="left" font="color:#000000,size:14,face:微软雅黑" pos="[5,8">莫小白</text>
+        </itemUser>
+
+        <itemGroup colorHover="rgb(220,220,220)" colorSelected="rgb(206,205,203)">
+          <img pos="8,7,@40,@40"  name="img_head_group"  skin="skin.icon2" />
+          <text name="text_group_name" align="left" font="color:#000000,size:14,face:微软雅黑" pos="[5,8" >风满楼</text>
+        </itemGroup>
+
+        <itemSepar colorHover="rgb(220,220,220)" colorSelected="rgb(206,205,203)">
+          <text name="text_title" align="left" font="bold:1,color:#000000,size:14,face:微软雅黑" pos="[70,5" offset="-1,0">分隔符</text>
+        </itemSepar>
+
+      </template>
+    </listview>
+  </window>
+
+  <window pos="[0,0,-0,-0" colorBkgnd="rgb(245,245,245)">
+    <!--个人信息-->
+    <window name="wnd_user_info" pos="0,0,-0,-0" colorBkgnd="rgb(245,245,245)" show="0">
+
+      <text pos="100,100" name="text_name" colorText="#000000" font="size:19">莫小白</text>
+
+      <text pos="{0,[5" colorText="#696969" font="size:13">Emp No</text>
+      <text pos="[5,{0" name="text_empNo" colorText="#000000" font="size:13">iv301</text>
+
+      <img pos="-200,100" skin="skin.icon2" name="img_head"/>
+
+      <text pos="100,[5" name="text_note" colorText="#696969" font="size:16">签名</text>
+
+      <text pos="100,300" colorText="#696969" font="size:13">Dept</text>
+      <text pos="[5,{0" name="text_dept" colorText="#000000" font="size:13">设计部</text>
+
+      <text pos="100,[5" colorText="#696969" font="size:13">Phone</text>
+      <text pos="[5,{0" name="text_phone" colorText="#000000" font="size:13">18600000000</text>
+
+      <imgbtn name="btn_chat" pos="-70,-60" skin="skin.btn_chat" colorText="#ffffff" animate="1" tip="Contact him\her"/>
+
+    </window>
+
+    <!--群组信息-->
+    <window name="wnd_group_info" pos="0,0,-0,-0" colorBkgnd="rgb(245,245,245)" show="0">
+
+      <text name="text_group_title" colorText="#000000" font="size:16,face:微软雅黑" pos="15,5" >风满楼</text>
+
+      <tileview pos="50,30,-45,-100" name="lv_member_tile" wantTab="1" marginSize="5" colorBkgnd="rgb(245,245,245)" vscrollBar="1" sbSkin="skin.common.vscroll" wordWrap="1"  autoVscroll="1" hscrollBar="0">
+        <template itemHeight="99" itemWidth="70" trackMouseEvent="1" colorHover="rgb(220,220,220)" colorSelected="rgb(206,205,203)">
+          <img pos="5,5"  name="img_head_member"  skin="skin.icon2" />
+          <text name="text_member_name" align="center" pos="0,[5,-0,-0" colorText="#696969">莫小白</text>
+        </template>
+      </tileview>
+
+      <imgbtn name="btn_group_chat" pos="-70,-60" skin="skin.btn_chat" colorText="#ffffff" animate="1" tip="Send message"/>
+
+    </window>
+  </window>
+
+</include>

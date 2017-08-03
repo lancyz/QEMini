@@ -1,0 +1,70 @@
+<include>
+
+  <!--最近联系人列表-->
+  <window pos="0,0,@250,-0" colorBkgnd="rgb(229,229,229)">
+    <listview pos="0,0,-0,-0" name="lv_user" dividerSize="5" wantTab="1" sbSkin="skin.common.vscroll">
+
+      <template itemHeight="50" trackMouseEvent="1">
+        <itemEvenNormal colorHover="rgb(220,220,220)" colorSelected="rgb(206,205,203)">
+          <img pos="8,7,@40,@40"  name="imgHead"  skin="skin.icon2" />
+          <text name="textName" align="left" font="color:#000000,size:14,face:微软雅黑" pos="[5,8">风满楼</text>
+          <text name="textDate" pos="-10,25" offset="-1,0" colorText="#A9A9A9" font="size:13">2-28</text>
+        </itemEvenNormal>
+        <!--
+                <itemEvenHover name="lv_item_hover" colorHover="#E5F0FA" colorSelected="#F8F8FF">
+                  <imageMask name="head_user2"  pos="20,7,@35,@35" skin="skin_head30" mask="IMG:ID_ICON_MASK30.g" show="0"/>
+                  <imgbtn name="tab_btn_del" skin="skin_tabbtn_close"    pos="0,15" tip="删除" animate="1"/>
+                  <imgbtn name="btn_call" skin="skin_btn_call"    pos="50,0" tip="语音" animate="1"/>
+                </itemEvenHover>
+                -->
+      </template>
+    </listview>
+  </window>
+
+  <!--聊天区域-->
+  <window name="wnd_chat" pos="[0,0,-0,-0" colorBkgnd="rgb(245,245,245)" show="0">
+    <!--消息接收框-->
+    <window pos="0,0,-0,@410">
+      <text name="textUserName" colorText="#000000" font="size:16,face:微软雅黑" pos="15,5" >莫小白</text>
+      <hr size="1" colorLine="#ced9e2" pos="0,40,-0,@1" msgTransparent="1" />
+      <imrichedit name="re-message" pos="0,[0,-0,-0" bkgndBlend="1"  enableDragdrop="1" readOnly="1" autoSel="0" multiLines="1" autoWordSel="0" vscrollBar="1" wordWrap="1"  autoVscroll="0" hscrollBar="0" wantReturn="1" scrollSpeed="60" inset="5,0,12,0" sbSkin="skin.common.vscroll"/>
+    </window>
+
+    <window pos="{0,[0,-0,-0" colorBkgnd="rgb(255,255,255)">
+      <hr size="1" colorLine="#ced9e2" pos="0,0,-0,@1" msgTransparent="1" />
+
+      <imgbtn name="btn_face" skin="skin.ico_face"   pos="5,2,@20,@20" tip="表情" animate="1"/>
+      <imgbtn name="btn_sendpic" skin="skin.ico_sendpic"    pos="[5,{0,@20,@20" tip="发送图片" animate="1"/>
+      <imgbtn name="btn_cut" skin="skin.ico_cut"    pos="[5,{0,@20,@20" tip="截图" animate="1"/>
+      <!--消息发送框-->
+      <imrichedit name="re-input" pos="0,[2,-0,-40" colorText="#000000" bkgndBlend="1"  enableDragdrop="1" autoSel="0" multiLines="1" autoWordSel="0" vscrollBar="1" wordWrap="1"  autoVscroll="1" hscrollBar="0" wantReturn="1" cursor="" sbSkin="skin.common.vscroll"/>
+
+      <!--底部按钮-->
+      <window pos="0,-30,-10,-0">
+        <!--
+        <buttonex pos="-167,0,@70,@24" skin="skin.chatbtn_close" colorText="#ffffff" textShift="2,1" animate="1">关闭(C)</buttonex>
+        -->
+        <buttonex pos="-93,0,@63,@24" name="btn_send" skin="skin.color_btn" colorText="#ffffff" textShift="2,1" animate="1">Send</buttonex>
+        <img      pos="-31,0,@2,@24"  skin="skin.send_btn_split_line"/>
+        <buttonex pos="-30,0,@26,@24"  name="btn_showsendmenu" bkgndSkin="skin.sendbtn_right" skin="skin.send_btn_arrow" animate="1"/>
+      </window>
+    </window>
+
+    <!--face wnd-->
+    <window name="wnd_face" pos="{0,210,@500,@200" skin="img_login_border" cache="1" show="0">
+      <window pos="6,6,-6,-6" >
+        <tileview pos="0,0,-0,-0" name="lv_face_tile" wantTab="1" marginSize="5" colorBkgnd="#ffffff" colorSelText="#FFFFFF" colorText="#FFFFFF" vscrollBar="1" sbSkin="skin.common.vscroll" wordWrap="1"  autoVscroll="1" hscrollBar="0" show="1">
+          <template itemHeight="32" itemWidth="32" trackMouseEvent="1" colorHover="rgb(235,235,235)" colorSelected="rgb(206,205,203)">
+            <img name="img_face"  pos="|-14,|-14" show="1"/>
+          </template>
+        </tileview>
+      </window>
+    </window>
+
+  </window>
+
+  <text pos="|0,|0" offset="-0.5,-0.5" show="0">这是一个由SOUI向导生成的APP框架</text>
+  <button pos="|0,[" inset="4,4,4,4" name="zh_cn" offset="-1.1,0" text="lang_cn" show="0"/>
+  <button pos="|0,[" inset="4,4,4,4" name="jp" offset="-1.1,0" text="lang_jp" show="0"/>
+
+</include>

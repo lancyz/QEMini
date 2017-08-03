@@ -1,0 +1,42 @@
+<SOUI name="loginWindow" title="QE" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="390" height="304" appWnd="1" resizable="0" translucent="1" trCtx="dlg_login">
+  <root>
+    <window pos="0,0,-0,-0" skin="img_login_border" cache="1">
+      <window pos="6,6,-6,-6" colorBkgnd="#ffffff">
+
+		  <caption pos="0,0,-0,30">
+		    <!--title bar-->
+		    <icon pos="10,8" src="ICON_LOGO:16"/>
+		    <text pos="[5,4">@string/title</text>
+		    <imgbtn name="btn_close" skin="skin.sys_close_btn"    pos="-28,0" tip="close" animate="1"/>
+		    <imgbtn name="btn_min" skin="skin.sys_min_btn" pos="-56,0" animate="1" />
+		  </caption>
+		  <caption pos="0,30,-0,-0">
+		    <!--body-->
+		    <caption pos="0,80,-0,-0">
+			  <img pos="23,37,101,115" skin="skin.icon2" name="img_avatar"/>
+
+			  <!--<img pos="22,36,102,116" skin="img_head_mask" />-->
+
+
+          <window pos="114,36,300,64" class="cls_edit" colorBkgnd="#ffffff">
+            <edit name="edit_empNo" pos="0,0,-19,-0" margin="0" password="0" mouseRelay="1" cueText="Employee number"/>
+          </window>
+			  <window pos="114,70,300,98" class="cls_edit" colorBkgnd="#ffffff">
+			    <edit name="edit_pwd" pos="0,0,-19,-0" margin="0" password="1" mouseRelay="1" cueText="Password"/>
+			  </window>
+
+			  <check pos="113,103" colorText="#696969" font="size:12">Keep Password</check>
+			  <check pos="230,103" colorText="#696969" font="size:12">Auto Login</check>
+		    </caption>
+		  </caption>
+
+
+		        <window pos="0,-55,-0,-0" colorBkgnd="#ffffff">
+			      <imgbtn name="btn_login" pos="|-80,|-18" skin="skin.login_btn" colorText="#ffffff" animate="1">Login</imgbtn>
+		        </window>
+
+
+      </window>
+	  </window>
+   </root>
+</SOUI>

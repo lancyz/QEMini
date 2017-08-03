@@ -1,0 +1,127 @@
+﻿<resource>
+  <UIDEF>
+    <file name="XML_INIT" path="uidef\init.xml"/>
+  </UIDEF>
+  <LAYOUT>
+    <file name="XML_MAINWND" path="xml\dlg_main.xml"/>
+    <file name="XML_LOGINWND" path="xml\dlg_login.xml"/>
+    <file name="XML_USERINFOWND" path="xml\dlg_userInfo.xml"/>
+    <file name="XML_SETUPWND" path="xml\dlg_setup.xml"/>
+    <file name="SelectionDropDownWnd" path="xml\SelectionDropdownWnd.xml" />
+
+    <!-- page页 -->
+    <file name="page_chat" path="xml\page_chat.xml"  />
+    <file name="page_contact" path="xml\page_contact.xml"  />
+    <file name="page_app" path="xml\page_app.xml"  />
+
+    <!-- ole控件相关的布局文件 -->
+    <file name="FileOleLayout" path="xml\richeditole\fileole.xml" />
+    <file name="SeperatorOleLayout" path="xml\richeditole\splitlineole.xml" />
+    <file name="ImageOleLayout" path="xml\richeditole\imageole.xml" />
+    <file name="FetchMoreOleLayout" path="xml\richeditole\fetchmoreole.xml" />
+    <file name="RemainderOleLayout" path="xml\richeditole\remainderole.xml" />
+    <file name="MetaFileOleLayout" path="xml\richeditole\MetaFileOle.xml" />
+  </LAYOUT>
+
+  <values>
+  	<file name="string" path="values\string.xml"/>
+  	<file name="color" path="values\color.xml"/>
+  	<file name="skin" path="values\skin.xml"/>
+  </values>
+
+  <IMG>
+    <file name="traymenu_icons" path="image\traymenu_icons.png"/>
+
+    <file name="img_shadow" path="image\shadow.png"/>
+    <file name="ID_MENU_BKG" path="image\menu_bkg.png"/>
+
+    <file name="ID_RICH_FILE_BK" path="image\richframe_bkg_no_spliter.png"/>
+    <file name="ID_FILE_ICON_TEXT" path="image\text.png"/>
+    <file name="ID_EMPTY" path="image\empty.png"/>
+
+    <!--login-->
+    <file name="IMG_LOGIN_BORDER" path="image\login\login_border.png"/>
+    <file name="btn_login_normal" path="image\login\button_login_normal.png"/>
+    <file name="btn_login_hover" path="image\login\button_login_hover.png"/>
+    <file name="btn_login_press" path="image\login\button_login_down.png"/>
+
+    <!--sys button-->
+    <file name="sys_close_normal" path="image\sysBtn\sysbtn_close_normal.png"/>
+    <file name="sys_close_hover" path="image\sysBtn\sysbtn_close_hover.png"/>
+    <file name="sys_close_press" path="image\sysBtn\sysbtn_close_down.png"/>
+
+    <file name="sys_max_normal" path="image\sysBtn\sysbtn_max_normal.png"/>
+    <file name="sys_max_hover" path="image\sysBtn\sysbtn_max_hover.png"/>
+    <file name="sys_max_press" path="image\sysBtn\sysbtn_max_down.png"/>
+
+    <file name="sys_min_normal" path="image\sysBtn\sysbtn_min_normal.png"/>
+    <file name="sys_min_hover" path="image\sysBtn\sysbtn_min_hover.png"/>
+    <file name="sys_min_press" path="image\sysBtn\sysbtn_min_down.png"/>
+
+    <file name="sys_restore_normal" path="image\sysBtn\sysbtn_restore_normal.png"/>
+    <file name="sys_restore_hover" path="image\sysBtn\sysbtn_restore_hover.png"/>
+    <file name="sys_restore_press" path="image\sysBtn\sysbtn_restore_down.png"/>
+
+    <!--main head-->
+    <file name="test_icon2" path="image\icon2.png"/>
+
+    <!--Tab button-->
+    <file name="chat_normal" path="image\tabPage\chat_normal.png"/>
+    <file name="chat_hover" path="image\tabPage\chat_hover.png"/>
+    <file name="chat_press" path="image\tabPage\chat_selected.png"/>
+    <file name="contacts_normal" path="image\tabPage\contacts_normal.png"/>
+    <file name="contacts_hover" path="image\tabPage\contacts_hover.png"/>
+    <file name="contacts_press" path="image\tabPage\contacts_selected.png"/>
+    <file name="app_normal" path="image\tabPage\app_normal.png"/>
+    <file name="app_hover" path="image\tabPage\app_hover.png"/>
+    <file name="app_press" path="image\tabPage\app_selected.png"/>
+    <file name="setup_normal" path="image\tabPage\menu_btn2_normal.png"/>
+    <file name="setup_hover" path="image\tabPage\menu_btn2_hover.png"/>
+
+
+    <!--QuickBar button-->
+    <file name="face_normal" path="image\midtoolbar\aio_quickbar_face.png"/>
+    <file name="face_hover" path="image\midtoolbar\aio_quickbar_face_hover.png"/>
+    <file name="face_press" path="image\midtoolbar\aio_quickbar_face_selected.png"/>
+
+    <file name="sendpic_normal" path="image\midtoolbar\aio_quickbar_sendpic.png"/>
+    <file name="sendpic_hover" path="image\midtoolbar\aio_quickbar_sendpic_hover.png"/>
+    <file name="sendpic_press" path="image\midtoolbar\aio_quickbar_sendpic_selected.png"/>
+
+    <file name="cut_normal" path="image\midtoolbar\aio_quickbar_cut.png"/>
+    <file name="cut_hover" path="image\midtoolbar\aio_quickbar_cut_hover.png"/>
+    <file name="cut_press" path="image\midtoolbar\aio_quickbar_cut_selected.png"/>
+  </IMG>
+
+  <PNG>
+        <file name="ID_SENDBTN_LEFT" path="image\roundcorner_left.png"/>
+        <file name="ID_SENDBTN_RIGHT" path="image\roundcorner_right.png"/>
+        <file name="ID_CHATBTN_CLOSE" path="image\roundcorner.png"/>
+
+        <file name="ID_SENDBTN_SPLITLINE" path="image\sendbtn_splitline.png"/>
+
+        <file name="ID_SENDBTN_ARROW" path="image\buttomctrl_arrow.png"/>
+
+        <file name="ID_FILE_ICON_TEXT" path="image\text.png"/>
+        <file name="ID_FETCH_MORE" path="image\more_msg.png"/>
+        <file name="ID_RICH_FILE_BK" path="image\richframe_bkg_no_spliter.png"/>
+        <file name="ID_RICH_WARNING" path="image\richframe_warning.png"/>
+        <file name="ID_RICH_LEFT_BUBBLE" path="image\aio_friend_bg_nor.png"/>
+        <file name="ID_RICH_RIGHT_BUBBLE" path="image\aio_user_bg_nor.png"/>
+        <file name="ID_RICH_SYSMSG_BK" path="image\aio_sys_bg.png"/>
+        <file name="ID_DEF_VSCROLL" path="image\def_scrollbar.png"/>
+    </PNG>
+
+  <ICON>
+    <file name="ICON_LOGO"  path="image\soui.ico"/>
+  </ICON>
+    <translator>
+    <file name="lang_cn"  path="translator\lang_cn.xml"/>
+      <file name="lang_jp"  path="translator\lang_jp.xml"/>
+       <file name="lang_en"  path="translator\lang_en.xml"/>
+    </translator>
+      <SMENU>
+    <file name="menu_tray" path="xml\menu_tray.xml"/>
+        <file name="menu_template" path="xml\menu\menu_template.xml"  />
+  </SMENU>
+  </resource>

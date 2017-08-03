@@ -1,0 +1,45 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" minsize="910,610" width="910" height="610"  margin="20,5,5,5"  resizable="1" wndType="appMain"
+toolWindow="1"
+translucent="1"
+appWnd="1"
+trCtx="dlg_main"
+>
+  <root skin="skin.shadow"  cache="1">
+    <window pos="5,3,-5,-7" colorBkgnd="rgb(255,255,255)" >
+    <caption pos="0,0,-0,30" show="1" font="adding:0">
+      <icon pos="10,8" src="ICON_LOGO:16"/>
+      <!--<text pos="29,5">@string/title</text>-->
+      <imgbtn name="btn_close" skin="skin.sys_close_btn"    pos="-28,0" tip="close" animate="1"/>
+      <imgbtn name="btn_max" skin="skin.sys_max_btn"  pos="-56,0" animate="1" />
+      <imgbtn name="btn_restore" skin="skin.sys_restore_btn"  pos="-56,0" show="0" animate="1" />
+      <imgbtn name="btn_min" skin="skin.sys_min_btn" pos="-84,0" animate="1" />
+    </caption>
+        <window pos="0,[2,-0,-0">
+
+          <gstabctrl id="30000" tabPos="60" pos="0,0,-0,-0" name="tab_main" colorBkgnd="rgb(46,50,56)" icon-x="10" icon-y="12" text-x="56" text-y="30" iconSkin="skin.ico_table" tabSkin="" cursor="hand"
+               animateSteps="13" animateType="1" tabAlign="left" tabHeight="50" tabWidth="60" drawFocusRect="0"
+                colorText="#c1c1c1" colorTextHover="#5748EA" colorTextPush="#5748EA" colorTextDisable="#5748EA"  >
+
+            <page title="chat">
+              <include src="layout:page_chat"/>
+            </page>
+
+            <page title="contact">
+               <include src="layout:page_contact"/>
+            </page>
+
+            <page title="app">
+              <include src="layout:page_app"/>
+            </page>
+
+          </gstabctrl>
+
+          <!--head-->
+          <img pos="10,10,@40,@40" name="imgMainHead" skin="skin.icon2" />
+          <!--setup btn-->
+          <imgbtn name="btn_setup" skin="skin.btn_setup" pos="12,-45" animate="1" />
+
+         </window>
+      </window>
+      </root>
+</SOUI>

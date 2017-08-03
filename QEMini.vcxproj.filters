@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1880f78d-3e23-4a1b-8d7c-bf5cecdc8e03}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1bb73d81-c1d0-413e-8855-cb24721355d1}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{1b8bd421-2d19-4d0e-9934-64291e49f913}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a46de75b-55f8-4017-88e1-9c586ca47760}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\extend.ctrls">
+      <UniqueIdentifier>{12be7d66-6287-4278-abed-83ef211c9ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extend.ctrls\imre">
+      <UniqueIdentifier>{ebed1073-21d7-4c58-86d2-9526f1517592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extend.skins">
+      <UniqueIdentifier>{8fe784de-ffe2-4ce6-b462-dd42c9ea9ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IMSocket">
+      <UniqueIdentifier>{5723e5f5-dfb9-4b8e-a71a-111020aaf301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Const">
+      <UniqueIdentifier>{a0e15883-e5f4-45fe-a524-511609a46f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LocalDB">
+      <UniqueIdentifier>{42b49022-4cfe-408f-b820-199af8bef8ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="license.txt" />
+    <None Include="readme.txt" />
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\values\color.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\menu_tray.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\image\traymenu_icons.png">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\page_chat.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\page_contact.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\page_app.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\SelectionDropdownWnd.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\dlg_login.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\dlg_userInfo.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QEMini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNotifyIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\ExtendCtrls.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\SButtonEx.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\SImageView.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\SplitBar.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\ClipboardConverter.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\dataobject.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\HTMLParser.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\HTTPDownloader.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\ImgProvider.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditObj.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditObjFactory.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditOleBase.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditOleCallback.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditOleCtrls.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\RichEditUnitConverter.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\imre\SImRichedit.cpp">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.skins\ExtendSkins.cpp">
+      <Filter>Source Files\extend.skins</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.skins\SAntialiasSkin.cpp">
+      <Filter>Source Files\extend.skins</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\GSSkin.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\STabCtrl2.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\GSTabCtrl.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="WHRoundRectFrameHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\SImageMaskWnd.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="extend.ctrls\SListboxex.cpp">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMSocket.cpp">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="IMCmdPacket.cpp">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hisqlite.cpp">
+      <Filter>Source Files\LocalDB</Filter>
+    </ClCompile>
+    <ClCompile Include="IMLocalDb.cpp">
+      <Filter>Source Files\LocalDB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QEMini.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNotifyIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\ExtendCtrls.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\SButtonEx.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\SImageView.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\SSplitBar.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\ClipboardConverter.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\dataobject.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\HTMLParser.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\HTTPDownloader.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\ImgProvider.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\IRichEditObjHost.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditObj.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditObjEvents.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditObjFactory.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditOleBase.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditOleCallback.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditOleCtrls.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\RichEditUnitConverter.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\imre\SImRichEdit.h">
+      <Filter>Source Files\extend.ctrls\imre</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.skins\ExtendSkins.h">
+      <Filter>Source Files\extend.skins</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.skins\SAntialiasSkin.h">
+      <Filter>Source Files\extend.skins</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.skins\SVscrollbar.h">
+      <Filter>Source Files\extend.skins</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\GSSkin.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterUserListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\STabCtrl2.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\GSTabCtrl.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="WHRoundRectFrameHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\FileHelper.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\SImageMaskWnd.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extend.ctrls\SListboxex.h">
+      <Filter>Source Files\extend.ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterFaceTileView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMSocket.h">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="IMCmdPacket.h">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="IMCmdHeader.h">
+      <Filter>Header Files\Const</Filter>
+    </ClInclude>
+    <ClInclude Include="IMConst.h">
+      <Filter>Header Files\Const</Filter>
+    </ClInclude>
+    <ClInclude Include="os_singleton.h">
+      <Filter>Header Files\Const</Filter>
+    </ClInclude>
+    <ClInclude Include="Sender.h">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Recver.h">
+      <Filter>Source Files\IMSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGlobal.h">
+      <Filter>Header Files\Const</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMMsg.h">
+      <Filter>Header Files\Const</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterContactView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdapterGroupMember.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hisqlite.h">
+      <Filter>Source Files\LocalDB</Filter>
+    </ClInclude>
+    <ClInclude Include="IMLocalDb.h">
+      <Filter>Source Files\LocalDB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

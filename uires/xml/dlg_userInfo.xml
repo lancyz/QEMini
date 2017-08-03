@@ -1,0 +1,30 @@
+﻿<SOUI name="userInfoWindow" title="" width="300" height="265" appWnd="0" resizable="0" translucent="1" trCtx="dlg_userInfo">
+  <root>
+    <window pos="0,0,-0,-0" skin="img_login_border" cache="1">
+      <window pos="6,6,-6,-6" colorBkgnd="#ffffff">
+
+	  <caption pos="0,0,-0,30">
+		<imgbtn name="btn_close" skin="skin.sys_close_btn"    pos="-28,0" tip="close" animate="1"/>
+	  </caption>
+
+	  <window pos="0,30,-0,-0">
+	    <text pos="30,10" name="text_name" colorText="#000000" font="size:19">莫小白</text>
+
+  		<text pos="{0,[5" colorText="#696969" font="size:13">Emp No</text>
+  		<text pos="[5,{0" name="text_empNo" colorText="#000000" font="size:13">iv301</text>
+
+  		<img pos="-90,10" skin="skin.icon2" name="img_head"/>
+
+  		<text pos="30,-60" colorText="#696969" font="size:13">Dept</text>
+  		<text pos="[5,{0" name="text_dept" colorText="#000000" font="size:13">设计部</text>
+  		<text pos="30,-40" colorText="#696969" font="size:13">Phone</text>
+  		<text pos="[5,{0" name="text_phone" colorText="#000000" font="size:13">18600000000</text>
+
+  		<imgbtn name="btn_chat" pos="-70,-60" skin="skin.btn_chat" colorText="#ffffff" animate="1" tip="Contact him\her"/>
+	  </window>
+
+
+   </window>
+	</window>
+   </root>
+</SOUI>

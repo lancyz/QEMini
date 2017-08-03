@@ -1,0 +1,18 @@
+<SOUI name="setupWindow" title="" width="300" height="265" appWnd="0" resizable="0" translucent="1" wndType="normal" trCtx="dlg_setup">
+  <root>
+    <window pos="0,0,-0,-0" skin="img_login_border" cache="1">
+      <window pos="6,6,-6,-6" colorBkgnd="#ffffff">
+
+	  <caption pos="0,0,-0,30">
+		<imgbtn name="btn_close" skin="skin.sys_close_btn"    pos="-28,0" tip="close" animate="1"/>
+	  </caption>
+
+	  <window pos="0,30,-0,-0">
+
+	  </window>
+       <buttonex pos="10,10,@63,@24" name="btn_ch" skin="skin.color_btn" colorText="#ffffff" textShift="2,1" animate="1">Chinese</buttonex>
+       <buttonex pos="10,50,@63,@24" name="btn_en" skin="skin.color_btn" colorText="#ffffff" textShift="2,1" animate="1">English</buttonex>
+      </window>
+	</window>
+   </root>
+</SOUI>

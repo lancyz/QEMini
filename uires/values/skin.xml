@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  	<imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+
+    <imgframe name="img_login_border" src="img:IMG_LOGIN_BORDER" left="9" top="9" right="9" bottom="9"/>
+    <imgframe name="skin.shadow" src="img:img_shadow" left="5" top="3" right="5" bottom="7"/>
+
+    <imgframe name="skin.rich_file_bk" src="IMG:ID_RICH_FILE_BK" left="14" top="20" right="14" bottom="20"/>
+   <imgframe name="skin.file_icon_text" src="IMG:ID_FILE_ICON_TEXT" />
+   <imgframe name="skin.menu_bkg" src="IMG:ID_MENU_BKG" left="10" top="10" right="10" bottom="10"/>
+   <imgframe name="skin.empty"	src="IMG:ID_EMPTY"/>
+
+    <gsimglist name="skin.login_btn"	imglist="img:btn_login_normal;img:btn_login_hover;img:btn_login_press" states="3"  />
+
+    <gsimglist name="skin.sys_close_btn"	imglist="img:sys_close_normal;img:sys_close_hover;img:sys_close_press" states="3"  />
+    <gsimglist name="skin.sys_max_btn"	imglist="img:sys_max_normal;img:sys_max_hover;img:sys_max_press" states="3"  />
+    <gsimglist name="skin.sys_min_btn"	imglist="img:sys_min_normal;img:sys_min_hover;img:sys_min_press" states="3"  />
+    <gsimglist name="skin.sys_restore_btn"	imglist="img:sys_restore_normal;img:sys_restore_hover;img:sys_restore_press" states="3"  />
+
+    <imgframe name="skin.icon2" src="img:test_icon2" />
+
+    <imgframe name="skin.send_btn_split_line" src="PNG:ID_SENDBTN_SPLITLINE" />
+    <imgframe name="skin.send_btn_arrow" src="PNG:ID_SENDBTN_ARROW" states="3"/>
+
+    <colormask name="skin.color_btn" colorNormal="#069dd5" colorHover="#4bcaff" colorDown="#069dd5" colorDisable="#069dd5" width="252" height="24"  mask="PNG:ID_SENDBTN_LEFT.a"/>
+    <colormask name="skin.sendbtn_right" colorNormal="#069dd5" colorHover="#4bcaff" colorDown="#069dd5" colorDisable="#069dd5" width="128" height="24" mask="PNG:ID_SENDBTN_RIGHT.a"/>
+    <colormask name="skin.chatbtn_close" colorNormal="#069dd5" colorHover="#4bcaff" colorDown="#069dd5" colorDisable="#069dd5" width="280" height="24" mask="PNG:ID_CHATBTN_CLOSE.a"/>
+
+    <imgframe name="skin.rich_warning" src="PNG:ID_RICH_WARNING" />
+    <imgframe name="skin.rich_left_bubble" src="PNG:ID_RICH_LEFT_BUBBLE" left="15" top="19" right="15" bottom="19"/>
+    <imgframe name="skin.rich_right_bubble" src="PNG:ID_RICH_RIGHT_BUBBLE" left="15" top="19" right="15" bottom="19"/>
+    <imgframe name="skin.rich_sysmsg_bk" src="PNG:ID_RICH_SYSMSG_BK" left="9" top="9" right="9" bottom="9"/>
+    <vscrollbar name="skin.common.vscroll" src="PNG:ID_DEF_VSCROLL" states="1" margin="3" hasgripper="0"/>
+
+    <gsimglist name="skin.ico_face"	imglist="img:face_normal;img:face_hover;img:face_press" states="3"  />
+    <gsimglist name="skin.ico_sendpic"	imglist="img:sendpic_normal;img:sendpic_hover;img:sendpic_press" states="3"  />
+    <gsimglist name="skin.ico_cut"	imglist="img:cut_normal;img:cut_hover;img:cut_press" states="3"  />
+
+    <gsimglist name="skin.btn_chat"	imglist="img:chat_normal;img:chat_hover;img:chat_press" states="3"  />
+    <!--tabSkin-->
+    <gsimglist name="skin.ico_table"	imglist="img:chat_normal;img:contacts_normal;img:app_normal;img:chat_hover;img:contacts_hover;img:app_hover;img:chat_press;img:contacts_press;img:app_press" states="9"  />
+    <gsimglist name="skin.btn_setup" imglist="img:setup_normal;img:setup_hover;img:setup_normal" states="3" />
+	</skin>
